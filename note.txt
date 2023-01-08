@@ -1,0 +1,166 @@
+
+install express
+
+
+            npm i express
+
+import express
+
+create an app using express
+
+create port number   (3000)
+
+create request according to our project
+
+
+nodemon server
+..............
+
+
+npm i -g nodemon
+
+server creation -using express
+...............
+
+instal express
+
+            - npm i express
+
+1. inport express
+
+2. create an app using express
+
+3.create port number  (3000)
+
+4. create requests acording to our project 
+
+
+
+nodemon server
+..............
+
+npm i -g nodemon
+
+user authentcation using express
+................................
+
+JWT(Json Web Token) Token
+.........................
+
+jsonwebtoken   - librery
+sign()         - methord used for generate json
+varify()       - methord to varify jwt tokens
+
+
+
+
+middlewares
+...........
+
+
+* middlewares have the capacity to control server requests
+* its a function with 3 arguments (request,response,next)
+
+* two types
+
+        1- applicatiom specific middlewares
+
+
+
+
+        2- router specific middlewares
+
+
+
+
+ solving runtime error in js
+ ...........................
+
+ try - catch
+
+ try{
+    error causing code
+ }
+ catch{
+    solution
+ }
+
+
+
+
+
+MONGO DB
+........
+
+. mongo db server
+. shell commands in mongodb
+
+      ->to see the database
+
+        -show database
+
+      ->open database
+
+        -use database_name
+
+      ->view collection inside database
+       
+        -show collections
+
+      ->to view datas inside collections
+
+        -db.collection_name.find()
+      
+      ->to view any single data inside collections 
+        -db.collection_name.findOne({unique data to identify})
+
+      ->to insert new data
+       
+        -db.collection_name.insertOne({data})
+
+      ->to view any single data according to a condition
+
+        -db.collection_name.findOne({condition})   single data
+        -db.collection_name.find({condition})      all datas.
+
+      ->delete
+
+        -delete single data
+
+            -db.collection_name.deleteOne({data})
+
+            -delete count=number
+            -delete count=0       if nothing deleted
+      
+
+      ->update
+
+       -db.collection_name.updateOne({data to be update}.{new data})
+                                    ({uname:"anu"},{uname:"anu v
+                                    "})
+
+
+crud   - create  read  update  delete
+
+
+
+server mongodb integration
+..........................
+
+.mongoose   - librery used to integrate db and server
+
+   npm i mongoose
+
+
+
+
+server mongodb integration
+..........................
+
+1. import mongoose
+
+2. state a connection starting via mongoose
+
+3. define a bank database model
+
+4. export the schema to use in another files
